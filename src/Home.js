@@ -29,6 +29,7 @@ export const Home = () => {
         // 영화 데이터 배열값 저장
         setresultData(result);
         // 요청값 저장
+        console.log(result);
       } catch (error) {
         console.log(error);
       }
@@ -49,7 +50,7 @@ export const Home = () => {
     }
   };
 
-  console.log(movieData);
+  // console.log(movieData);
   //   console.log("데이터" + resultData);
   //   console.log(movieData?.backdrop_path);
 
@@ -85,3 +86,4 @@ export const Home = () => {
   );
 };
 // npm사이트 : react-infinite-scroll-component
+// : npm i react-infinite-scroll-component
